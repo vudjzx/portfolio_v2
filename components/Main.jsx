@@ -46,12 +46,12 @@ export default function Main() {
             </a>
           </div>
           <a
-            href="https://drive.google.com/file/d/1yAKkpN4SUUGrO8T8aGXMtyvYFnstW5V0/view"
+            href="https://drive.google.com/file/d/1JL_K09MZ51js0m3D8Sy8AFkCk0Ah8t3O/view"
             target="_blank"
             rel="noreferrer"
           >
             <button className="w-1/2 my-4 py-4 font-bold text-xl">
-              My Resume
+              Resume
             </button>
           </a>
         </div>
