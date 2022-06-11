@@ -11,10 +11,10 @@ export default function About() {
           </p>
           <h2 className="text-slate-50 py-4">A little bit about me...</h2>
           <p className="text-slate-50 py-2">
-            I'm a college student/self-taught React developer with experience
-            building responsive web applications and mobile apps for android and
-            iOS. I'm also a NodeJS developer with some experience building
-            restful APIs.
+            I am a college student/self-taught React and React Native developer
+            with experience building responsive web applications and mobile apps
+            for android and iOS. I also have experience with NodeJS, TypeScript
+            and building RESTful APIs.
           </p>
         </div>
         <div className="my-4 relative w-full lg:h-[500px] md:h-[350px] h-[600px]">

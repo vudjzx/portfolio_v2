@@ -43,12 +43,20 @@ const FoodApp = () => {
             to find a path to each mock restaurant in the data
           </p>
 
-          <a href="https://www.youtube.com/watch?v=afutTERQuU0" target="_blank">
+          <a
+            href="https://www.youtube.com/watch?v=afutTERQuU0"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="font-bold px-8 py-2 mt-4 mr-8 shadow-slate-900">
               Demo Video
             </button>
           </a>
-          <a href="https://github.com/vudjzx/ui-food-app" target="_blank">
+          <a
+            href="https://github.com/vudjzx/ui-food-app"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="font-bold px-8 py-2 mt-4 shadow-slate-900">
               Code
             </button>

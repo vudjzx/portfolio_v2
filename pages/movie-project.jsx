@@ -39,12 +39,20 @@ const property = () => {
             movies and TV shows by genre or search for a specific movie or TV
             show. Pagination is enabled on the browsing sections.
           </p>
-          <a href="https://pensive-wright-50ab95.netlify.app/" target="_blank">
+          <a
+            href="https://pensive-wright-50ab95.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="font-bold px-8 py-2 mt-4 mr-8 shadow-slate-900">
               Live Site
             </button>
           </a>
-          <a href="https://github.com/vudjzx/react-movie-app" target="_blank">
+          <a
+            href="https://github.com/vudjzx/react-movie-app"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="font-bold px-8 py-2 mt-4 mr-8 shadow-slate-900">
               Code
             </button>

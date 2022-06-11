@@ -38,12 +38,20 @@ const ImageFinder = () => {
             JavaScript for fetching the Pixabay API.
           </p>
 
-          <a href="https://boring-fermi-e4a4be.netlify.app/" target="_blank">
+          <a
+            href="https://boring-fermi-e4a4be.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="font-bold px-8 py-2 mt-4 mr-8 shadow-slate-900">
               Live Site
             </button>
           </a>
-          <a href="https://github.com/vudjzx/image-finder" target="_blank">
+          <a
+            href="https://github.com/vudjzx/image-finder"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="font-bold px-8 py-2 mt-4 mr-8 shadow-slate-900">
               Code
             </button>

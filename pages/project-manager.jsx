@@ -45,7 +45,7 @@ const ProjectManager = () => {
             implemented for real time task updates on a project.
           </p>
           <p className="font-black text-slate-50">
-            Some demo accounts to use if you don't have an account:
+            Some demo accounts to use if you do not have an account:
           </p>
           <p className="text-slate-50">
             <span className="font-black text-slate-50">User(s): </span>
@@ -55,17 +55,29 @@ const ProjectManager = () => {
             <span className="font-black">Password: </span> admin123
           </p>
 
-          <a href="https://teal-gaufre-71c798.netlify.app/" target="_blank">
+          <a
+            href="https://teal-gaufre-71c798.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="font-bold px-8 py-2 mt-4 mr-8 shadow-slate-900">
               Live Site
             </button>
           </a>
-          <a href="https://github.com/vudjzx/managr_frontend" target="_blank">
+          <a
+            href="https://github.com/vudjzx/managr_frontend"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="font-bold px-8 py-2 mt-4 mr-8 shadow-slate-900">
               Frontend Code
             </button>
           </a>
-          <a href="https://github.com/vudjzx/managr_backend" target="_blank">
+          <a
+            href="https://github.com/vudjzx/managr_backend"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="font-bold px-8 py-2 mt-4 shadow-slate-900">
               Backend Code
             </button>
