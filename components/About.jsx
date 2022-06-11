@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-
+import developerImg from "../public/assets/images/developer.jpg";
 export default function About() {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-24">
@@ -22,7 +22,7 @@ export default function About() {
             className="rounded-xl shadow-xl shadow-slate-900"
             layout={"fill"}
             objectFit={"cover"}
-            src="/../public/assets/images/developer.jpg"
+            src={developerImg}
           />
         </div>
       </div>

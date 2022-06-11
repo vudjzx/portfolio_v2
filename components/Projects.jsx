@@ -49,6 +49,7 @@ const ProjectItem = ({ title, backgroundImg, projectUrl, tags }) => {
     <Link href={projectUrl}>
       <div className="cursor-pointer relative flex items-center group justify-center h-auto w-full shadow-lg shadow-slate-900 rounded-xl p-2 group hover:bg-gradient-to-r from-[#1e293b] to-[#0f172a]">
         <Image
+          priority
           className="rounded-xl group-hover:opacity-10 transition-opacity duration-200"
           src={backgroundImg}
           alt="/"
