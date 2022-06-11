@@ -1,16 +1,43 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+    @apply bg-slate-800 text-[#1f2937] tracking-wide;
+  }
 
-* {
-  box-sizing: border-box;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+    @apply text-slate-50;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl;
+    @apply text-slate-50;
+  }
+
+  li {
+    @apply cursor-pointer;
+    @apply text-slate-50;
+  }
+
+  button {
+    @apply shadow-xl shadow-slate-900 rounded-xl bg-[#3758ec] text-white;
+    @apply text-slate-50;
+  }
 }
