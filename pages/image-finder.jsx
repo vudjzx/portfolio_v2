@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import propertyImg from "../public/assets/images/project-manager.png";
+import propertyImg from "../public/assets/images/p3.jpeg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { BiArrowBack } from "react-icons/bi";
