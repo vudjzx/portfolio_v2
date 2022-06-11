@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Victor Duran</title>
-        <meta name="description" content="Victor Duran portfolio" />
+        <meta name="description" content="Victor Duran Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

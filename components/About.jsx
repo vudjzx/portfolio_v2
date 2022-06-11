@@ -23,6 +23,7 @@ export default function About() {
             layout={"fill"}
             objectFit={"cover"}
             src={developerImg}
+            priority
           />
         </div>
       </div>
