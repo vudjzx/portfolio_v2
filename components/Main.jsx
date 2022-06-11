@@ -11,7 +11,7 @@ export default function Main() {
             Mobile - Web developer
           </p>
           <h1 className="text-slate-50 py-4">
-            Hi I'm <span className="text-[#3758ec]">Victor</span>
+            Hi I&apos;m <span className="text-[#3758ec]">Victor</span>
           </h1>
           <h1 className="text-slate-50 py-4">A Frontend Developer</h1>
           <p className="py-4 text-slate-50 max-w-[70%] m-auto">
@@ -21,17 +21,25 @@ export default function Main() {
             technologies and building things that are useful to the world.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <a href="https://www.linkedin.com/in/vudjj" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/vudjj"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="bg-slate-50 p-3 rounded-full shadow-lg shadow-slate-900 cursor-pointer hover:scale-105 ease-in duration-300">
                 <FaLinkedinIn size={30} className="text-slate-800" />
               </div>
             </a>
-            <a href="https://github.com/vudjzx" target="_blank">
+            <a
+              href="https://github.com/vudjzx"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="bg-slate-50 p-3 rounded-full shadow-lg shadow-slate-900 cursor-pointer hover:scale-105 ease-in duration-300">
                 <FaGithub size={30} className="text-slate-800" />
               </div>
             </a>
-            <a href="mailto:vudjzx@gmail.com" target="_blank">
+            <a href="mailto:vudjzx@gmail.com" target="_blank" rel="noreferrer">
               <div className="bg-slate-50 p-3 rounded-full shadow-lg shadow-slate-900 cursor-pointer hover:scale-105 ease-in duration-300">
                 <AiOutlineMail size={30} className="text-slate-800" />
               </div>
@@ -40,6 +48,7 @@ export default function Main() {
           <a
             href="https://drive.google.com/file/d/1yAKkpN4SUUGrO8T8aGXMtyvYFnstW5V0/view"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="w-1/2 my-4 py-4 font-bold text-xl">
               My Resume

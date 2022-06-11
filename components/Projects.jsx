@@ -12,7 +12,7 @@ export default function Projects() {
         <p className="text-xl text-[#94a3b8] tracking-widest uppercase pb-4">
           Projects
         </p>
-        <h2 className="text-slate-50 py-4 ">What I've built</h2>
+        <h2 className="text-slate-50 py-4 ">What I&apos;ve built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="MERN Project Manager"

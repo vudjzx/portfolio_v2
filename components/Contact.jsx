@@ -45,25 +45,37 @@ const Contact = () => {
                   Front-End Developer
                 </p>
                 <p className="text-slate-50 py-4">
-                  You can leave a message if you want to get in touch, I'll get
-                  back to you as soon as possible.
+                  You can leave a message if you want to get in touch, I will
+                  get back to you as soon as possible.
                 </p>
               </div>
               <div>
                 <p className="pt-4 text-slate-50">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <a href="https://www.linkedin.com/in/vudjj/" target="_blank">
+                  <a
+                    href="https://www.linkedin.com/in/vudjj/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div className="rounded-full bg-slate-50 shadow-lg shadow-slate-900 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn size={30} className="text-slate-800" />
                     </div>
                   </a>
-                  <a href="https://github.com/vudjzx" target="_blank">
+                  <a
+                    href="https://github.com/vudjzx"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div className="rounded-full bg-slate-50 shadow-lg shadow-slate-900 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub size={30} className="text-slate-800" />
                     </div>
                   </a>
 
-                  <a href="mailto:vudjzx@gmail.com" target="_blank">
+                  <a
+                    href="mailto:vudjzx@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div className="rounded-full bg-slate-50 shadow-lg shadow-slate-900 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiOutlineMail size={30} className="text-slate-800" />
                     </div>
