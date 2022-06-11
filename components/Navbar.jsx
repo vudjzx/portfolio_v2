@@ -100,7 +100,7 @@ function Navbar() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <p className="font-bold uppercase text-2xl cursor-pointer text-slate-50 transition-colors px-2">
+              <p className="font-bold text-2xl cursor-pointer text-slate-50 transition-colors px-2">
                 Menu
               </p>
               <div
@@ -112,7 +112,7 @@ function Navbar() {
             </div>
 
             <div className="border-b border-gray-300 my-4"></div>
-            <div className="uppercase flex flex-col">
+            <div className="flex flex-col">
               <ul>
                 <div onClick={() => setMenuOpen(!menuOpen)}>
                   <Link href="/">
@@ -145,7 +145,7 @@ function Navbar() {
               </ul>
 
               <div className="pt-40">
-                <p className="font-bold uppercase text-2xl text-slate-50 transition-colors px-2">
+                <p className="font-bold text-2xl text-slate-50 transition-colors px-2">
                   Contact me
                 </p>
                 <div className="flex items-center justify-between w-full sm:w-[80%] my-4">
