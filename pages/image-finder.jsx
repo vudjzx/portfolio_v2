@@ -25,8 +25,8 @@ const ImageFinder = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-4 text-slate-50">MERN Project Manager</h2>
-          <h3 className="text-slate-50">Fullstack React Project</h3>
+          <h2 className="py-4 text-slate-50">Image Finding Web Application</h2>
+          <h3 className="text-slate-50">HTML / CSS / JavaScript</h3>
         </div>
       </div>
 
