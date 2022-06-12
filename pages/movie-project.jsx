@@ -72,10 +72,10 @@ const property = () => {
                 <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
               <p className="text-slate-600 shadow-slate-900 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> HTML
+                <RiRadioButtonFill className="pr-1" /> HTML / CSS
               </p>
               <p className="text-slate-600 shadow-slate-900 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CSS
+                <RiRadioButtonFill className="pr-1" /> Material UI
               </p>
             </div>
           </div>

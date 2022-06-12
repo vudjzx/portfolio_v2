@@ -9,7 +9,6 @@ function Navbar() {
   const [shadow, setShadow] = React.useState(false);
 
   const [navBg, setNavBg] = React.useState("#1e293b");
-  const [linkColor, setLinkColor] = React.useState("#f8fafc");
   const router = useRouter();
 
   React.useEffect(() => {
@@ -20,11 +19,30 @@ function Navbar() {
       router.asPath === "/food-ui-app"
     ) {
       setNavBg("transparent");
-      setLinkColor("#ecf0f3");
     } else {
       setNavBg("#1e293b");
-      setLinkColor("#1f2937");
     }
+
+    const handleNavColor = () => {
+      if (
+        window.scrollY > 90 &&
+        (router.asPath === "/project-manager" ||
+          router.asPath === "/movie-project" ||
+          router.asPath === "/image-finder" ||
+          router.asPath === "/food-ui-app")
+      ) {
+        setNavBg("#1e293b");
+      } else if (
+        window.scrollY < 90 &&
+        (router.asPath === "/project-manager" ||
+          router.asPath === "/movie-project" ||
+          router.asPath === "/image-finder" ||
+          router.asPath === "/food-ui-app")
+      ) {
+        setNavBg("transparent");
+      }
+    };
+    window.addEventListener("scroll", handleNavColor);
   }, [router]);
 
   React.useEffect(() => {
@@ -43,8 +61,8 @@ function Navbar() {
       style={{ backgroundColor: navBg }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-lg shadow-slate-900 z-[100]"
-          : "fixed w-full h-20 shadow-slate-900 z-[100]"
+          ? "transition-colors duration-200 fixed w-full h-20 shadow-lg shadow-slate-900 z-[100]"
+          : "transition-colors duration-200 fixed w-full h-20 shadow-slate-900 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
