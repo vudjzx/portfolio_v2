@@ -7,8 +7,9 @@ import {
   SiHtml5,
   SiTailwindcss,
 } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaGitSquare } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
+
 export default function Skills() {
   return (
     <div id="skills" className="w-full pt-24 lg:h-screen p-2">
@@ -20,16 +21,9 @@ export default function Skills() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="rounded-xl flex items-center p-5 shadow-xl shadow-slate-900 hover:scale-105 ease-in duration-300">
-            <SiHtml5 size={60} className="text-slate-50 mr-4" />
-            <p className="text-slate-50 font-bold text-xl tracking-wide">
-              HTML5
-            </p>
-          </div>
-
-          <div className="rounded-xl flex items-center p-5 shadow-xl shadow-slate-900 hover:scale-105 ease-in duration-300">
-            <SiCss3 size={60} className="text-slate-50 mr-4" />
+            <FaReact size={60} className="text-slate-50 mr-4" />
             <p className="text-slate-50 text-xl font-bold tracking-wide">
-              CSS3
+              React / React Native
             </p>
           </div>
 
@@ -39,17 +33,25 @@ export default function Skills() {
               JavaScript
             </p>
           </div>
-          <div className="rounded-xl flex items-center p-5 shadow-xl shadow-slate-900 hover:scale-105 ease-in duration-300">
-            <FaReact size={60} className="text-slate-50 mr-4" />
-            <p className="text-slate-50 text-xl font-bold tracking-wide">
-              ReactJS / React Native
-            </p>
-          </div>
 
           <div className="rounded-xl flex items-center p-5 shadow-xl shadow-slate-900 hover:scale-105 ease-in duration-300">
             <SiTypescript size={60} className="text-slate-50 mr-4" />
             <p className="text-slate-50 text-xl font-bold tracking-wide">
               TypeScript
+            </p>
+          </div>
+
+          <div className="rounded-xl flex items-center p-5 shadow-xl shadow-slate-900 hover:scale-105 ease-in duration-300">
+            <SiHtml5 size={60} className="text-slate-50 mr-4" />
+            <p className="text-slate-50 font-bold text-xl tracking-wide">
+              HTML5 / CSS3
+            </p>
+          </div>
+
+          <div className="rounded-xl flex items-center p-5 shadow-xl shadow-slate-900 hover:scale-105 ease-in duration-300">
+            <FaGitSquare size={60} className="text-slate-50 mr-4" />
+            <p className="text-slate-50 text-xl font-bold tracking-wide">
+              Git / GitHub
             </p>
           </div>
 
