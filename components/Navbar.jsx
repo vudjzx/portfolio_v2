@@ -167,15 +167,33 @@ function Navbar() {
                   Contact me
                 </p>
                 <div className="flex items-center justify-between w-full sm:w-[80%] my-4">
-                  <div className="bg-slate-50 p-3 rounded-full shadow-lg shadow-slate-900 cursor-pointer">
-                    <FaLinkedinIn size={30} className="text-slate-800" />
-                  </div>
-                  <div className="bg-slate-50 p-3 rounded-full shadow-lg shadow-slate-900 cursor-pointer">
-                    <FaGithub size={30} className="text-slate-800" />
-                  </div>
-                  <div className="bg-slate-50 p-3 rounded-full shadow-lg shadow-slate-900 cursor-pointer">
-                    <AiOutlineMail size={30} className="text-slate-800" />
-                  </div>
+                  <a
+                    href="http://linkedin.com/in/vudjj"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="bg-slate-50 p-3 rounded-full shadow-lg shadow-slate-900 cursor-pointer">
+                      <FaLinkedinIn size={30} className="text-slate-800" />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/vudjzx/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="bg-slate-50 p-3 rounded-full shadow-lg shadow-slate-900 cursor-pointer">
+                      <FaGithub size={30} className="text-slate-800" />
+                    </div>
+                  </a>
+                  <a
+                    href="mailto:vudjzx@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="bg-slate-50 p-3 rounded-full shadow-lg shadow-slate-900 cursor-pointer">
+                      <AiOutlineMail size={30} className="text-slate-800" />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
