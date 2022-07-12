@@ -5,6 +5,7 @@ import movieProjectImg from "../public/assets/images/p1.jpeg";
 import projectManagerImg from "../public/assets/images/p2.png";
 import imageFinderProjectImg from "../public/assets/images/p3.jpeg";
 import mobileProjectImg from "../public/assets/images/p4.png";
+import graphQLProjectImg from "../public/assets/images/reviewhub.png";
 export default function Projects() {
   return (
     <div className="w-full pt-10" id="projects">
@@ -18,7 +19,13 @@ export default function Projects() {
             title="MERN Project Manager"
             backgroundImg={projectManagerImg}
             projectUrl="/project-manager"
-            tags={["Mongo", "Express", "Node", "React"]}
+            tags={["MongoDB", "Express", "Node", "React"]}
+          />
+          <ProjectItem
+            title="GraphQL Movie Project"
+            backgroundImg={graphQLProjectImg}
+            projectUrl="/movies-reviewer"
+            tags={["MongoDB", "GraphQL", "Node", "React"]}
           />
           <ProjectItem
             title="React Movie App"

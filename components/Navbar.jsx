@@ -16,7 +16,8 @@ function Navbar() {
       router.asPath === "/project-manager" ||
       router.asPath === "/movie-project" ||
       router.asPath === "/image-finder" ||
-      router.asPath === "/food-ui-app"
+      router.asPath === "/food-ui-app" ||
+      router.asPath === "/movies-reviewer"
     ) {
       setNavBg("transparent");
     } else {
@@ -29,7 +30,8 @@ function Navbar() {
         (router.asPath === "/project-manager" ||
           router.asPath === "/movie-project" ||
           router.asPath === "/image-finder" ||
-          router.asPath === "/food-ui-app")
+          router.asPath === "/food-ui-app" ||
+          router.asPath === "/movies-reviewer")
       ) {
         setNavBg("#1e293b");
       } else if (
@@ -37,7 +39,8 @@ function Navbar() {
         (router.asPath === "/project-manager" ||
           router.asPath === "/movie-project" ||
           router.asPath === "/image-finder" ||
-          router.asPath === "/food-ui-app")
+          router.asPath === "/food-ui-app" ||
+          router.asPath === "/movies-reviewer")
       ) {
         setNavBg("transparent");
       }
